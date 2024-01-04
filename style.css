@@ -21,6 +21,8 @@ body{
     max-width: 390px;
     border-radius: 20px;
     padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .card > h1, p{
