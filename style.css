@@ -1,0 +1,83 @@
+@charset "utf-8";     
+
+body{
+    display: flex;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.card{
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 7px 7px 1px black;
+    max-width: 390px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card > h1, p{
+    line-height: 24px;
+}
+
+
+.illustration{  
+    margin: auto;
+    border-radius: 10px;
+}
+
+.tag{
+    font-size: 16px;
+    text-align: center;
+    background-color: hsl(47, 88%, 63%);
+    max-width: 85px;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 0;
+}
+
+#tag{
+   
+    padding-top: 10px;
+}
+
+.title{
+    font-size: 2.5vh;
+}
+
+.title:hover{
+    color:  hsl(47, 88%, 63%);
+}
+
+.text{
+    color: hsl(0, 0%, 50%);
+}
+
+.avatar{
+    justify-content: left;
+    height: 40px;
+    width: 40px;
+
+}
+
+.profile{
+    display: flex;
+    padding: 10px 10px 0px 0px;
+    font-weight: bold;
+}
+
+.profile > p{
+    padding-top: 10px;
+    margin: 0;
+}
+
+.name{
+    text-indent: 10px;
+}
